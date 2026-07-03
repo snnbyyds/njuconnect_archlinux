@@ -1,5 +1,5 @@
 # Maintainer: snnbyyds <snnbyyds@gmail.com>
-pkgname=njuconnect
+pkgname=njuconnect-fork
 pkgver=TestBuild15.r8.f940390
 pkgrel=1
 pkgdesc="NJU VPN protocol reimplementation in Go"
@@ -7,6 +7,7 @@ arch=('x86_64' 'aarch64')
 url="https://github.com/snnbyyds/NJUConnect"
 license=('AGPL-3.0-only')
 depends=('glibc')
+conflicts=('njuconnect')
 makedepends=(
     'git'
     'go'
