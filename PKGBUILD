@@ -38,7 +38,7 @@ Comment=NJU VPN Client
 Exec=njuconnect-gui
 Icon=network-vpn
 Categories=Network;
-Terminal=false
+Terminal=true
 EOF
 }
 
